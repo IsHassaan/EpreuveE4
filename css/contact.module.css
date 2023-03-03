@@ -1,0 +1,38 @@
+.contact{
+    margin-top: 10%;
+    border-top: 0.2vw solid #1C3879;
+    padding-top: 5%;
+    width: 100%;
+    padding-bottom: 2%;
+}
+.bottom_contact{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.bottom_contact img{
+    margin-top: 4%;
+    width: 4vw;
+    height: 4vw;
+}
+.copyright{
+    margin-left: 45%;
+    margin-top: 10%;
+}
+.copyright a{
+    margin-left: 1%;
+}
+.bottom_links{
+    display: flex;
+    flex-direction: column;
+}
+.bottom_links a{
+    margin-top: 5%;
+}
+.infos p{
+    margin-top: 4%;
+}
+.nom p{
+    margin-top: 4%;
+}

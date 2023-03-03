@@ -1,0 +1,78 @@
+.presentation{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.apropos{
+    margin-top: 10%;
+    margin-left: 5%;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.apropos h3, .formation h3{
+    color: #1C3879;
+}
+.apropos p{
+    margin-top: 2%;
+    color: #607EAA;
+    width: 80%;
+}
+.apropos a{
+    padding: 1%;
+    color: #1C3879;
+    background-color: #EAE3D2;
+    border-radius: 0.5vw;
+    margin-top: 4%;
+    width: 15%;
+    text-align: center;
+    text-decoration: none;
+}
+.apropos a:hover{
+    animation: cv 0.5s linear 0s 1 normal forwards;
+    opacity: 80%;
+
+}
+.formation{
+    margin-bottom: 10%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-left: 20%;
+    text-align: center;
+}
+.formation p{
+    margin-top: 2%;
+    color: #607EAA;
+}
+.formation_liens{
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    margin-left: 30%;
+    justify-content: space-between;
+}
+.formation_liens a{
+    padding: 1%;
+    color: #1C3879;
+    background-color: #EAE3D2;
+    border-radius: 0.5vw;
+    text-align: center;
+    text-decoration: none;
+}
+.formation_liens a:hover{
+    opacity: 80%;
+}
+
+
+
+
+
+@keyframes cv {
+    0%   {margin-left: 0%;}
+    25%  {margin-left: 1%;}
+    50%  {margin-left: 2%;}
+    100% {margin-left: 3%;}
+}
