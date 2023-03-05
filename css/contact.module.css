@@ -5,6 +5,9 @@
     width: 100%;
     padding-bottom: 2%;
 }
+.contact h1{
+    color: #1C3879;
+}
 .bottom_contact{
     width: 100%;
     display: flex;
@@ -22,6 +25,7 @@
 }
 .copyright a{
     margin-left: 1%;
+    color: #607EAA;
 }
 .bottom_links{
     display: flex;
@@ -29,10 +33,40 @@
 }
 .bottom_links a{
     margin-top: 5%;
+    text-decoration: none;
+    color: #607EAA;
+}
+.bottom_links a:hover{
+    color: #EAE3D2;
 }
 .infos p{
     margin-top: 4%;
+    color: #607EAA;
 }
 .nom p{
     margin-top: 4%;
+    color: #607EAA;
+}
+
+/*Adaptation mobile*/
+@media only screen and (max-width: 600px) {
+    .bottom_contact{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .copyright{
+        margin-left: 40%;
+    }
+    .bottom_links{
+        margin-top: 5%;
+    }
+    .infos{
+        margin-top: 5%;
+    }
+    .bottom_contact img{
+        margin-top: 5%;
+        width: 5vw;
+        height: 5vw;
+    }
 }

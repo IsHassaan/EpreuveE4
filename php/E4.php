@@ -44,5 +44,6 @@
 
 </div>
 
+<?php include 'contact.php'; ?>
 </body>
 </html>

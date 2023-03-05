@@ -55,7 +55,7 @@
     justify-content: space-between;
 }
 .formation_liens a{
-    padding: 1%;
+    padding: 2%;
     color: #1C3879;
     background-color: #EAE3D2;
     border-radius: 0.5vw;
@@ -75,4 +75,49 @@
     25%  {margin-left: 1%;}
     50%  {margin-left: 2%;}
     100% {margin-left: 3%;}
+}
+
+
+/*Adaptation mobile*/
+@media only screen and (max-width: 600px) {
+    .formation{
+        margin-bottom: 0%;
+        margin-top: 15%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        margin-left: 0%;
+        text-align: center;
+    }
+    .formation p{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .formation_liens{
+        width: 70%;
+        margin-left: 15%;
+    }
+    .formation_liens a{
+        width: 40%;
+    }
+    .presentation{
+        margin-left: 0%;
+        width: 100%;
+        align-items: center;
+    }
+    .apropos{
+        margin-top: 10%;
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        align-items: center;
+        margin-left: 0%;
+    }
+    .apropos p{
+        width: 80%;
+        text-align: center;
+    }
+    .apropos a{
+        margin-left: 0;
+    }
 }

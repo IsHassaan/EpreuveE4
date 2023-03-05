@@ -43,7 +43,7 @@
 .projet_text{
     display: flex;
     flex-direction: column;
-    width: 45%;
+    width: 40%;
     padding-right: 1%;
     border-right:0.2vw solid #EAE3D2;
 }

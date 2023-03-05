@@ -27,7 +27,7 @@
     </div>
     <div class="liens_contact">
         <a href=""><img src="../assets/linkedin.png" alt="logo"></a>
-        <a href="" class="contact">Contact</a>
+        <a href="" class="contact_link">Contact</a>
     </div>
 </div>
 
