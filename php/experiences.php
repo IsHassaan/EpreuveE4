@@ -70,8 +70,9 @@
             <div class="competence">
             <img src="../assets/mysql.png" alt="logo">
                 <p>
-                Ajout, modification, extraction et suppression des données en lien avec l'application
-                web lors des interactions de l'utilisateur.
+                Gestion des données de l'application développée.
+                Modification, ajout et suppression des données de l'application 
+                et liaison des fonctions à la base de données.
                 </p>
             </div>
             <div class="competence">
@@ -143,15 +144,16 @@
             <div class="competence">
             <img src="../assets/mongodb.png" alt="logo">
                 <p>
-                Ajout, modification, extraction et suppression des données en lien avec l'application
-                web lors des interactions de l'utilisateur.
+                Gestion des données de l'application développée.
+                Modification, ajout et suppression des données de l'application 
+                et liaison des fonctions à la base de données. 
                 </p>
             </div>
             <div class="competence">
             <img src="../assets/javascript.png" alt="logo">
                 <p>
-                Création de fonction en lien avec la base de données afin de créer des 
-                évènements lors des interactions de l'utilisateur.
+                Création de fonctions en lien avec la base de données dans
+                le but de gérer les évènements lors des interactions de l'utilisateur.
                 </p>
             </div>
         </div>

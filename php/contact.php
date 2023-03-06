@@ -1,7 +1,7 @@
 <link rel="stylesheet" href="../css/contact.module.css?v=<?php echo time(); ?>">
 
 
-<div class="contact">
+<div class="contact" id="contact">
     <div class="bottom_contact">
     
         <div class="nom">
@@ -15,7 +15,7 @@
 
         <div class="infos">
             <h1>Contactez nous</h1>
-            <p>E-mail : Prizm.net.contact@gmail.com</p>
+            <p>E-mail : EpreuveE4@gmail.com</p>
             <p>Paris, France</p>
         </div>
         <div class="bottom_links">
@@ -23,7 +23,7 @@
             <a href="accueil.php">Accueil</a>
             <a href="experiences.php">Experiences</a>
             <a href="E4.php">Epreuve E4</a>
-            <a href="category.php?category=Sport">Epreuve E6</a>
+            <a href="">Epreuve E6</a>
             <a href="veille-juridique.php">Veille juridique</a>
             <a href="veille-technologique.php">Veille technologique</a>
         </div>

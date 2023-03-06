@@ -10,18 +10,37 @@
 <body>
 <?php include "navbar.php" ?>
 
-<div class="veille_tech">
-    <div class="flux">
-        <img src="" alt="image">
-        <div class="flux_text">
-            <h1>Titre</h1>
-            <p>Text</p>
-            <a href="">Voir</a>
-        </div>
-    </div>
-</div>
 
-<h2>Test</h2>
+<?php
+$url = "https://www.lesnumeriques.com/rss.xml";
+$feed = simplexml_load_file($url);
+if ($feed) {
+    $items = $feed->channel->item;
+    if ($items) {
+        echo "<div class='veille_tech'>";
+        $count = 0;
+        foreach ($items as $item) {
+            if ($count >= 10) {
+                break;
+            }
+            echo "<div class='flux'>";
+            echo "<img src='".$item->image."'></img>";
+            echo "<div class='flux_text'>"
+            .$item->title
+            .$item->description."
+            </div>";
+            echo "</div>";
+            $count++;
+        }
+        echo "</div>";
+    } else {
+        echo "Erreur de lecture";
+    }
+} else {
+    echo "Flux RSS invalid";
+}
+?>
+
 
 
 <?php include "contact.php" ?>
