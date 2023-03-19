@@ -24,7 +24,7 @@
         C'est pour toutes ces raisons que mon choix s'est porté sur ce cursus qui allie théorie
         et pratique autour d'un sujet commun qu'est le développement informatique.
         </p>
-        <a href="../assets/CV2023.pdf" target="blank">Voir le C.V</a>
+        <a href="../assets/CV.pdf" target="blank">Voir le C.V</a>
     </div>
 
     <div class="formation">
@@ -46,8 +46,8 @@
         les deux liées au domaine d'apprentissage.
         </p>
        <div class="formation_liens">
-       <a href="">Veille technologique</a>
-       <a href="">Veille juridique</a>
+       <a href="veille-technologique.php">Veille technologique</a>
+       <a href="E6.php">Epreuve E6</a>
 
        </div>
     </div>

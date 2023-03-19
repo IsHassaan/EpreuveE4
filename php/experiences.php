@@ -47,7 +47,7 @@
                         Gestion des évènements utilisateurs et modifications de données en conséquence.
                         </p>
             </div>
-            <img src="../assets/semwee.jpg" alt="logo">
+            <img src="../assets/keozia.png" alt="logo">
         </div>
         <h4>Compétences concernées : </h4>
         <div class="competences">

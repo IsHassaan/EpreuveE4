@@ -23,8 +23,7 @@
             <a href="accueil.php">Accueil</a>
             <a href="experiences.php">Experiences</a>
             <a href="E4.php">Epreuve E4</a>
-            <a href="">Epreuve E6</a>
-            <a href="veille-juridique.php">Veille juridique</a>
+            <a href="E6.php">Epreuve E6</a>
             <a href="veille-technologique.php">Veille technologique</a>
         </div>
     </div>

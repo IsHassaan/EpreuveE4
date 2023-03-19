@@ -29,8 +29,11 @@ p,a{
 }
 .lien_principal{
     width: 20%;
-    color: #1C3879;
     margin-left: 2%;
+}
+.lien_principal a{
+    text-decoration: none;
+    color: #1C3879;
 }
 .liens_secondaires{
     width: 60%;

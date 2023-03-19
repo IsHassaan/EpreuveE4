@@ -13,15 +13,14 @@
 
 <div class="navbar">
     <div class="lien_principal">
-        <h2>Hassaan Ismail</h2>
+        <a href="accueil.php"><h2>Hassaan Ismail</h2></a>
     </div>
     <div class="liens_secondaires">
         <ul>
             <li><a href="accueil.php">Présentation</a></li>
             <li><a href="experiences.php">Experiences</a></li>
             <li><a href="E4.php">Epreuve E4</a></li>
-            <li><a href="">Epreuve E6</a></li>
-            <li><a href="veille-juridique.php">Veille juridique</a></li>
+            <li><a href="E6.php">Epreuve E6</a></li>
             <li><a href="veille-technologique.php">Veille technologique</a></li>
         </ul>
     </div>
