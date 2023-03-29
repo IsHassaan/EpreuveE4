@@ -37,10 +37,36 @@
     </p>
 </div>
 
+<div class="vj_enjeux">
+    <h3>Les enjeux des IoT (internet of things)</h3>
+    <p>
+    Le développement des objets connectés est la conséquence d'une innovation conséquente au niveau de la mobilité, de la durabilité et de la capacité des matériaux que nous possédons aujourd'hui.
+    L'implémentation de système informatique dans les objets ouvre ces derniers à de nombreuses possibilités, les objets peuvent à présent collecter des données afin de mieux comprendre les besoins
+    des utilisateurs et de s'améliorer en prenant en compte les utilisations les plus importantes.<br>
+    Il s'agit également de rendre les objets "intelligents" en apportant des fonctionnalités 
+    qui peuvent à présent être améliorées en fonction de la mise à jour apportée par les développeurs.<br>
+    L'exemple le plus frappant reste le smartphone qui dépend de moins en moins du matériel qu'il transporte, mais surtout des programmes qui y sont liés.<br>
+    Cet apport profite à de nombreuses industries dont la médecine, la sécurité publique ou même le sport, le travail des algorithmes permet de surveiller,
+    d'accompagner et de comprendre les situations auxquelles les objets peuvent être confrontés afin de laisser une plus grande liberté à son propriétaire.<br><br>
+
+    Les programmes sont aujourd'hui une nécessité dans la plupart des objets industriels, cette démocratisation comporte de nouveaux débats et enjeux qui sont assez 
+    récents pour remettre en cause les économies et la sécurité des industries qui en font l'usage.<br>
+    Plus qu'un outil de modernisation, les IoT font l'objet de nombreuses convoitises tant les programmes auxquels ils sont liés peuvent être complexes.<br>
+    L'arrivée des technologies dans le milieu industriel pose donc des problèmes de cybersécurité qui, à présent, représentent une 
+    grande partie de la productivité et de la recherche des entreprises.<br><br>
+
+    Comme la plupart des innovations, les IoT sont alors la cible de nombreux enjeux
+    encore à résoudre et doivent être surveillés afin d'en préserver la sécurité et le potentiel.<br>
+    Il est de ce fait évident que les États et entreprises seront tentés d'investir dans ce qu'on 
+    pourrait appeler une course à l'innovation dans le but de poursuivre leur croissance et préserver leur intégrité dans un monde en mouvement. 
+    </p>
+</div>
+
 <div class="vj_rss">
-<h2>Sources d'étude</h2>
+<h2>Sources d'étude<br>
+(Newsletter)</h2>
 <?php
-$url = "https://lejournal.cnrs.fr/rss/392";
+$url = "https://www.silicon.fr/actualites/cloud/iot/feed";
 $feed = simplexml_load_file($url);
 if ($feed) {
     $items = $feed->channel->item;
@@ -52,9 +78,11 @@ if ($feed) {
                 break;
             }
             echo "<div class='flux'>";
-            echo "<h3>{$item->title}</h3>";
-            echo "<p>{$item->description}</p>";
-            echo "<a href='{$item->link}' target='blank'>Voir plus</a>";
+            echo "<div class='flux_text'>";
+                echo "<h4>{$item->title}</h4>";
+                echo "<p>{$item->description}</p>";
+            echo "</div>";
+            echo "<a href='{$item->link}' target='blank'>visiter</a>";
             echo "</div>";
             $count++;
         }
@@ -66,10 +94,8 @@ if ($feed) {
 } else {
     echo "Flux RSS invalid";
 }
-?>
 
-<?php
-$url = "https://www.zdnet.fr/feeds/rss/cybersécurité";
+$url = "https://www.usinenouvelle.com/rss/club-inno/iot/";
 $feed = simplexml_load_file($url);
 if ($feed) {
     $items = $feed->channel->item;
@@ -81,9 +107,11 @@ if ($feed) {
                 break;
             }
             echo "<div class='flux'>";
-            echo "<h3>".utf8_decode($item->title)."</h3>";
-            echo "<p>".utf8_decode($item->description)."</p>";
-            echo "<a href='{$item->link}' target='blank'>Voir plus</a>";
+            echo "<div class='flux_text'>";
+                echo "<h4>{$item->title}</h4>";
+                echo "<p>{$item->description}</p>";
+            echo "</div>";
+            echo "<a href='{$item->link}' target='blank'>visiter</a>";
             echo "</div>";
             $count++;
         }
@@ -93,8 +121,40 @@ if ($feed) {
         echo "Erreur de lecture";
     }
 } else {
-    echo "Flux RSS invalide";
+    echo "Flux RSS invalid";
 }
+
+
+
+$url = "https://www.usine-digitale.fr/iot/rss";
+$feed = simplexml_load_file($url);
+if ($feed) {
+    $items = $feed->channel->item;
+    if ($items) {
+        echo "<div class='veille_tech'>";
+        $count = 0;
+        foreach ($items as $item) {
+            if ($count >= 3) {
+                break;
+            }
+            echo "<div class='flux'>";
+            echo "<div class='flux_text'>";
+                echo "<h4>{$item->title}</h4>";
+                echo "<p>{$item->description}</p>";
+            echo "</div>";
+            echo "<a href='{$item->link}' target='blank'>visiter</a>";
+            echo "</div>";
+            $count++;
+        }
+        
+        echo "</div>";
+    } else {
+        echo "Erreur de lecture";
+    }
+} else {
+    echo "Flux RSS invalid";
+}
+
 ?>
 
 

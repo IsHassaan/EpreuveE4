@@ -25,7 +25,7 @@
         </ul>
     </div>
     <div class="liens_contact">
-        <a href=""><img src="../assets/linkedin.png" alt="logo"></a>
+        <a href="https://www.linkedin.com/in/hassaan-ismail-670540234/" target="blank"><img src="../assets/linkedin.png" alt="logo"></a>
         <a href="#contact" class="contact_link">Contact</a>
     </div>
 </div>

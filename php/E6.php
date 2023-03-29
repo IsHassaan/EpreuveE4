@@ -22,7 +22,7 @@
 
 <div class="liste_travaux">
     <h2>Liste des travaux pratiques</h2>
-        <a href="" class="tp">
+        <a href="../activités/Participation au maintien en condition opérationnelle d'un service informatique/activité.doc" class="tp">
             <img src="../assets/azure.png" alt="image">
             <h3>Participation au maintien en condition opérationnelle d'un service informatique</h3>
         </a>

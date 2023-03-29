@@ -12,34 +12,50 @@
 <?php include "navbar.php" ?>
 
 <div class="projets">
-    <h2 class="projet_intro">Projets épreuve E4</h2>
-    <div class="projet">
+<div class="introduction">
+<h2>Epreuve E4</h2>
+    <p>
+    L'épreuve E4 permet de présenter les différentes coméptences acquises au fil des éxpériences profesionnelles
+    et de présenter le contexte de l'apprentissage de ces compétences.
+    </p>
+</div>
+
+<div class="projet">
         <div class="projet_text">
-        <h2>Projet PHP/SQL</h2>
+        <h2>Keozia (PHP)</h2>
         <p>
-        Le premier projet est un projet d'article en ligne basé sur PHP accompagné d'une base
-        de données MySQL.<br>
-        Le site prend en charge de nombreuses actions dont la création, la modification et la suppression
-        des articles postés ainsi que la création et la modification d'un compte utilisateur.<br>
-        Les comptes créés peuvent interagir à travers un système de commentaire et d'appréciation qui ont un 
-        impact sur la visibilité de leur contenu respectif.
+           Keozia est l'entreprise en charge de cours webmaster, un site web en charge de 
+           la publication d'outils d'apprentissage dans le domaine du développement.<br>
+           Les fonctionnalités développées en cours de stage permettent l'authentification, 
+           la réception de mails, le paiement d'abonnement, la réception de factures et 
+           l'accès exclusif à des cours spécifiques. 
         </p>
-        <a href="">Voir le projet</a>
+        <div class="liens_e4">
+            <a href="../activités/Stage 2023.doc">Documentation</a>
+            <a href="https://www.cours-webmasters.fr/" target="blank">Visiter le site</a>
         </div>
-        <img src="../assets/projet1.png" alt="photo">
+        </div>
+        <img src="../assets/E4-Keozia.png" alt="photo">
     </div>
+
 
     <div class="projet">
         <div class="projet_text">
-        <h2>Projet C#</h2>
-        <p>It was a concerning development that he couldn't get out of his mind. He'd had
-        many friends throughout his early years and had fond memories of playing with them,
-        but he couldn't understand how it had all stopped. There was some point as he grew
-        up that he played with each of his friends for the very last time, and he had no
-        idea that it would be the last.</p>
-        <a href="">Voir le projet</a>
+        <h2>Semwee (Angular)</h2>
+        <p>
+        Le premier stage se déroule sous Angular, il a pour but de participer au développement
+        d'une application mobile qui est basé sur l'optimisation du référencement (SEO).<br>
+        L'application est reliée à une base de données MongoDB qui s'occupe entre autre de l'authentification, 
+        mais aussi d'autres fonctionnalités de l'application.<br>
+        Il est notamment possible d'envoyer un fichier contenant des données textuelles et de recevoir 
+        une copie améliorée.
+        </p>
+        <div class="liens_e4">
+            <a href="../activités/Stage 2022.doc">Documentation</a>
+            <a href="https://semwee.app/" target="blank">Visiter le site</a>
         </div>
-        <img src="../assets/projet2.png" alt="photo">
+        </div>
+        <img src="../assets/E4-Semwee.png" alt="photo">
     </div>
 
 </div>

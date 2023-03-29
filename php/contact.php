@@ -8,8 +8,8 @@
             <h1>Epreuve E4</h1>
             <p>Lien utiles</p>
             <div class="img_contact">
-            <a href="https://www.linkedin.com" target="blank"><img src="../assets/linkedin.png" alt="linkedin link"></a>
-            <a href="https://github.com" target="blank" ><img src="../assets/github.png" alt="github link"></a>
+            <a href="https://www.linkedin.com/in/hassaan-ismail-670540234/" target="blank"><img src="../assets/linkedin.png" alt="linkedin link"></a>
+            <a href="https://github.com/IsHassaan" target="blank" ><img src="../assets/github.png" alt="github link"></a>
             </div>
         </div>
 
