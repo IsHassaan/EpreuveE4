@@ -15,7 +15,7 @@
 
         <div class="infos">
             <h1>Contactez nous</h1>
-            <p>E-mail : EpreuveE4@gmail.com</p>
+            <p>E-mail : is.hassaan@gmail.com</p>
             <p>Paris, France</p>
         </div>
         <div class="bottom_links">
