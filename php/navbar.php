@@ -21,6 +21,7 @@
             <li><a href="experiences.php">Experiences</a></li>
             <li><a href="E4.php">Epreuve E4</a></li>
             <li><a href="E6.php">Epreuve E6</a></li>
+            <li><a href="projets.php">Projets</a></li>
             <li><a href="veille-technologique.php">Veille technologique</a></li>
         </ul>
     </div>
